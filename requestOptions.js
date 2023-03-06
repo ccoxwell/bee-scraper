@@ -18,7 +18,7 @@ const dom_request_options = {
 	},
 	referrer: 'https://www.nytimes.com/crosswords',
 	method: 'GET',
-	mode: 'cors',
+	mode: 'same-origin',
 }
 
 const found_req_options = {
